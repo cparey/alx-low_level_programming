@@ -9,7 +9,7 @@
 unsigned long largest_prime_factor(unsigned long n)
 {
 	unsigned long i;
-	
+
 	while (n % 2 == 0)
 	{
 		n = n / 2;
@@ -36,7 +36,7 @@ int main(void)
 {
 	unsigned long num = 612852475143;
 	unsigned long largest_factor = largest_prime_factor(num);
-	
+
 	printf("%lu\n", largest_factor);
 	return (0);
 }
