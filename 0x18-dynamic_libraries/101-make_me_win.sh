@@ -1,2 +1,3 @@
 #!/bin/bash
-sleep 98 && echo -e "9\n8\n10\n24\n75\n9" > numbers
+wget -P /tmp https://github.com/Tolulope05/alx-low_level_programming/raw/master/0x18-dynamic_libraries/nrandom.so
+export LD_PRELOAD=/tmp/nrandom.so
